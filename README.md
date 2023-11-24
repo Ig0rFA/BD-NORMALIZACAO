@@ -1,7 +1,7 @@
-# BD-NORMALIZÇÃO
+# BD-NORMALIZAÇÃO
+Nesta atividade realizamos manipulamos as seguintes tabelas normalizada e nao normalizada.
 
-
-## Etapa 1: Criação de Tabelas e Inserção de Dados
+## Etapa 1: Criação de Tabelas 
 
 ```
 create table veiculos(
