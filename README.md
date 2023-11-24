@@ -63,6 +63,6 @@ create view Todas_locacoes as
 ```
 ## Etapa 1-4:Print View , Modelo Logico
 ![exer1-4-1]().
-![exer1-4-2]().
+![exer1-4-2](https://github.com/Ig0rFA/BD-NORMALIZA-O/blob/main/PrintAutomoveis.png).
 
 
