@@ -1,5 +1,8 @@
 # BD-NORMALIZÇÃO
 
+
+## Etapa 1: Criação de Tabelas e Inserção de Dados
+
 create table veiculos(
 		cod_Locacao int primary key auto_increment not null,
 		veiculo	varchar (80) not null,
