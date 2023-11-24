@@ -62,5 +62,7 @@ create view Todas_locacoes as
     select * from Todas_locacoes;
 ```
 ## Etapa 1-4:Print View , Modelo Logico
+![exer1-4-1]().
+![exer1-4-2]().
 
 
