@@ -2,6 +2,7 @@
 
 
 ## Etapa 1: Criação de Tabelas e Inserção de Dados
+
 ```
 create table veiculos(
 	cod_Locacao int primary key auto_increment not null,
@@ -32,7 +33,9 @@ create table veiculo(
 	total decimal(9,2) not null,
 	foreign key (cpf_cli) references cliente(cpf)
 );
-    
+```
+## Etapa 1-2: Inserção de Dados
+```
 insert into cliente (cpf, nome, nascimento) values ('123.456.789-01','Ariano Sussuna','2022-05-21'),
 insert into cliente (cpf, nome, nascimento) values ('543.765.987-23','Grace Hopper','2002-04-29'),
 insert into cliente (cpf, nome, nascimento) values ('987.654.321-90','Richard Feynman','2001-10-12'),
@@ -49,7 +52,8 @@ insert into veiculo (veiculo, cor , placa , diaria, cpf_cliente,dia, total) valu
 
 select * from veiculo;
 ```
-/*Criaçao das views.*/
+
+## Etapa 1-3:Criaçao das views
 ```
 create view Todas_locacoes as
 	select * from veiculo
@@ -57,3 +61,6 @@ create view Todas_locacoes as
     
     select * from Todas_locacoes;
 ```
+## Etapa 1-4:Print View , Modelo Logico
+
+
