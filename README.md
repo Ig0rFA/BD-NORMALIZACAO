@@ -62,7 +62,6 @@ create view Todas_locacoes as
     select * from Todas_locacoes;
 ```
 ## Etapa 1-4:Print View , Modelo Logico
-
 Modelo Logico:
 ![exer1-4-1](https://github.com/Ig0rFA/BD-NORMALIZA-O/blob/main/PrintModeloLogicoNormaliza%C3%A7ao.png).
 
